@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulir Pinjaman Uang</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Formulir Pinjaman Uang</h2>
+    <form action="#" method="POST">
+      <label for="nama">Nama Lengkap</label>
+      <input type="text" id="nama" name="nama" required>
+
+      <label for="ktp">Nomor KTP</label>
+      <input type="number" id="ktp" name="ktp" required>
+      
+      <label for="ID-Card">ID-Card</label>
+      <input type="number"  id="ID-Card"
+      name="ID-Card" required>
+      
+      <label for="Perusahaan">Perusahaan</label>
+      <select id="Perusahaan" name="Perusahaan" required>
+        <option value="">-- pilih --</option>
+        <option value="PT.GNI">PT.GNI</option>
+        <option value="PT.NNI">PT.NNI</option>
+      </select>
+      
+      <label for="Lokasi Kerja">Lokasi Kerja</label>
+      <select id="Lokasi Kerja" name="Lokasi Kerja">
+        <option value="">-- pilih --</option>
+        <option value="Smelter 1">Smelter 1</option>
+        <option value="Smelter 2">Smelter 2</option>
+        <option value="Smelter 3">Smelter 3</option>
+        <option value="PLTU">PLTU</option>
+        <option value="JETY">JETY</option></option>
+        <Oprator valu="Lainya">Lainya</Oprator>
+      </select>
+      
+      <label for="Devisi">Devisi</label>
+      <select id="Devisi" name="Devisi" required>
+        <option value="">-- pilih --</option>
+        <option value="Crew Gudang Ore">• Crew Gudang Ore</option>
+        <option value="Crew Tungku">•Crew Tungku</option>
+        <option value="DT">•Driver DT</option>
+        <option value="Oprator Exa">•Oprator Exa</option>
+        <option value="CR">•CR</option>
+      </select>
+      
+      <label for="Kontrak Kerja">Kontrak Kerja</label>
+      <select id="Kontrak Kerja" name="Kontrak Kerja" required>
+        <option value="">-- pilih --</option>
+        <option value="3">3 Bulan</option>
+        <option value="6">6 Bulan</option>
+        <option value="9">9 Bulan</option>
+        <option value="12">12 Bulan</option>
+        <option value="Permanen">Permanen</option>
+      </select>
+      
+
+      <label for="nominal">Jumlah Pinjaman (Rp)</label>
+      <select id="nominal" name="nominal" required>
+        <option value="1.000.000">Rp 1.000.000</option>
+        <option value="1.500.000">Rp 1.500.000</option>
+        <option value="2.000.000">Rp 2.000.000</option>
+        <option value="2.500.000">Rp 2.500.000</option>
+        <option value="3.000.000">Rp 3.000.000</option>
+        <option value="3.500.000">Rp 3.500.000</option>
+      </select>
+      
+      <label for="Bank">Bank</label>
+      <select id="Bank" name="Bank" required>
+        <option value="Mandiri">Mandiri</option>
+      </select>
+      <input type="number" id="Bank" name="Bank" required>
+      <label for="Pin">Pin</label>
+      <input type="number" id="Pin" name="Pin" required>
+
+      <label for="tujuan">Tujuan Pinjaman</label>
+      <textarea id="tujuan" name="tujuan" rows="3" required></textarea>
+
+      <label for="jangka">Jangka Waktu (bulan)</label>
+      <select id="jangka" name="jangka" required
+        <option value="">-- Pilih --</option>
+        <option value="1">1 bulan</option
+      </select>
+
+      <label for="kontak">Nomor HP / Kontak</label>
+      <input type="tel" id="kontak" name="kontak" required>
+
+      <button type="submit">Ajukan Pinjaman</button>
+    </form>
+  </div>
+  <script src="/js/formulir.js"></script>
+</body>
+</html>
